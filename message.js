@@ -10,13 +10,17 @@
  */
 
 'use strict';
-
 module.exports = function(
   reviewers: Array<string>,
   mentionSentenceBuilder: (reviewers: Array<string>) => string,
   defaultMessageGenerator: (reviewers: Array<string>) => string
 ): string {
-
+  var phrazes = [
+    'Эсмеральда: Как тебя зовут?\n' +
+    'Бутч:' + mentionSentenceBuilder(reviewers) + '.\n' +
+    'Эсмеральда: Что это означает?\n' +
+    'Бутч: Я американец, дорогуша. Наши имена вообще нихера не значат.'
+  ];
   // This file is a place where you can change the way the message the bot
   // uses to comment. For example:
   //
@@ -26,5 +30,6 @@ module.exports = function(
   //
   //   Please review this @georgecodes and @vjeux
 
-	return defaultMessageGenerator(reviewers);
+	//return defaultMessageGenerator(reviewers);
+  return phrazes[0];
 };
