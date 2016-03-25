@@ -17,7 +17,7 @@ module.exports = function(
 ): string {
   var phrazes = [
     'Эсмеральда: Как тебя зовут?\n' +
-    'Бутч:' + mentionSentenceBuilder(reviewers) + '.\n' +
+    'Бутч: ' + mentionSentenceBuilder(reviewers) + '.\n' +
     'Эсмеральда: Что это означает?\n' +
     'Бутч: Я американец, дорогуша. Наши имена вообще нихера не значат.'
   ];
