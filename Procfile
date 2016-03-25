@@ -1,1 +1,1 @@
-web: npm start
+web: GITHUB_TOKEN=dea2ecb0a50ceb039a21455cfa6c3ce60550957f npm start
