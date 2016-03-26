@@ -1,3 +1,12 @@
+# Butch
+Facebook Mention bot
+### Use: [butch-pulp-fiction.herokuapp.com](https://butch-pulp-fiction.herokuapp.com) (more info after image)
+## Authors
+### Pestov Nikita a.k.a. [@Nikit0s](https://github.com/Nikit0s)
+### Fedor Isakov a.k.a. [@FrodoTheTrue](https://github.com/FrodoTheTrue)
+
+
+<img width="769" src="http://snag.gy/bTCZU.jpg">
 # mention-bot [![Build Status](https://travis-ci.org/facebook/mention-bot.svg?branch=master)](https://travis-ci.org/facebook/mention-bot)
 
 Do you have a GitHub project that is too big for people to subscribe to all the notifications? The mention bot will automatically mention potential reviewers on pull requests. It helps getting faster turnaround on pull requests by involving the right people early on.
