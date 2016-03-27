@@ -45,8 +45,8 @@ module.exports = function(
     'Зед: Эни-бени, трали-вали, с ' + mentionSentenceBuilder(reviewers) + ' в прятки мы играли.\n' +
       'В грунт по уши закопали. Эни-бени, мени-мать, будут там теперь вонять.',
 
-    'Бутч: Ты в норме?\n' +
-    'Марселлас: Нет, мужик. Я, капец как далек от ' + mentionSentenceBuilder(reviewers) + '.',
+    'Бутч: Ты в норме? ' + mentionSentenceBuilder(reviewers) + '\n' +
+    'Марселлас: Нет, мужик. Я, капец как далек от.',
 
     'Фабиан: Чей это мотоцикл?\n' +
     'Бутч: Это не мотоцикл, это чоппер, ' + mentionSentenceBuilder(reviewers) + '.',
