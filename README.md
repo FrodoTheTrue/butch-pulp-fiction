@@ -7,4 +7,4 @@ Facebook Mention bot
 
 ## More info
 
-mention-bot is [BSD-licensed](https://github.com/facebook/mention-bot/)
+[FB mention-bot](https://github.com/facebook/mention-bot/)
